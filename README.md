@@ -14,8 +14,7 @@
     
     ```bash  
     sudo chmod +x install.sh  
-    ```  
-    ```bash  
+   
     ./install  
     ```  
  说明：安装脚本install.sh 使用了各个工程的makefile文件，如需单独使用某个工程，请单独编译。
