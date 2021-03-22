@@ -1,4 +1,4 @@
-<h1 align<h1 align="center">Welcome to CengLou 👋</h1><img src="https://img.shields.io/badge/CengLou-ULis-blue"/>   
+<h1 align<h1 align="center">Welcome to CengLou 👋  <img src="https://img.shields.io/badge/CengLou-ULis-blue"/></h1>   
 
 
 这个项目起源于个人毕业设计的项目-基于OpenCV的人脸识别工具的设计与实现  
