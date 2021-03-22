@@ -11,8 +11,7 @@
 ## 🚀 快速使用
 **在使用之前，请务必阅读各个目录的README文件**
 将最新工程clone到本地，并进入CengLou目录
-    
-     
+
     1. #sudo chmod +x install.sh  
    
     2. #./install  
