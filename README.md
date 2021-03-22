@@ -12,11 +12,11 @@
 **在使用之前，请务必阅读各个目录的README文件**
 将最新工程clone到本地，并进入CengLou目录
     
-    ```bash  
-    sudo chmod +x install.sh  
+     
+    1. #sudo chmod +x install.sh  
    
-    ./install  
-    ```  
+    2. #./install  
+     
  说明：安装脚本install.sh 使用了各个工程的makefile文件，如需单独使用某个工程，请单独编译。
  
 ## 🛠 功能与设置
