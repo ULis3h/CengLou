@@ -30,7 +30,7 @@
 5.上位机状态展示  
 
 客户端下载：[源码地址](https://github.com/Hiiam9/CengLou/tree/main/client)  
-构建说明参考client目录下的README文件  
+构建说明参考client目录下的[README](https://github.com/Hiiam9/CengLou/blob/main/client/README.md)文件  
 ## ⚡️ 调试
 
 
