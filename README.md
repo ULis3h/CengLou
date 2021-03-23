@@ -16,10 +16,13 @@
 <p><img src="https://github.com/Hiiam9/CengLou/blob/main/mechanics/pic/wholeCar.jpeg" width="360" height="250"/></p>
 💡整体软硬件平台：   
 
-硬件：上位机---Nvidia Tegra K1 || Nvidia Tegra X1 || Nvidia Tegra X2  
+⚡️硬件：  
+上位机---Nvidia Tegra K1 || Nvidia Tegra X1 || Nvidia Tegra X2  
       <p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tx2.png"/><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tk1.jpg" width = "360" height = "250"/></p>
       下位机---STM32 F4系列芯片（引脚可能部分不同）  
       底  盘---STM32 F1系列芯片 （底盘采用的是有方机器人的套件，只有遥控部分做了一些线路和通信协议的改动）  
+      
+📷 摄像头  
 
 
 **在使用之前，请务必阅读各个目录的README文件**
