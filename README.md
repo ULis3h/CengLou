@@ -57,7 +57,8 @@
 客户端下载：[源码地址](https://github.com/Hiiam9/CengLou/tree/main/client)  
 构建说明参考client目录下的[README](https://github.com/Hiiam9/CengLou/blob/main/client/README.md)文件  
 ## ⚡️ 调试
-
+## 📱通信协议
+## 📖数据库
 
 
 ## 😘 参与此项目 
