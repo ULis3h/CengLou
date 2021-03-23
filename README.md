@@ -12,11 +12,12 @@
 
 ## 🚀 快速使用
 ⚙️机械结构：
-
+目前拼凑出的整体图如下，后续会舍弃掉一些（如测试使用的intel神经元计算棒）
+<p><img src="https://github.com/Hiiam9/CengLou/blob/main/mechanics/pic/wholeCar.jpeg" width="400" height="300"></p>
 💡整体软硬件平台：   
 
 硬件：上位机---Nvidia Tegra K1 || Nvidia Tegra X1 || Nvidia Tegra X2  
-      <p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tx2.png"><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tk1.jpg" width = "480" height = "320" ></p>
+      <p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tx2.png"><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tk1.jpg" width = "400" height = "300" ></p>
       下位机---STM32 F4系列芯片（引脚可能部分不同）  
       底  盘---STM32 F1系列芯片 （底盘采用的是有方机器人的套件，只有遥控部分做了一些线路和通信协议的改动）  
 
