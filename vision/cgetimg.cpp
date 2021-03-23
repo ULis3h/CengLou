@@ -12,13 +12,13 @@ CGetimg::~CGetimg()
 int CGetimg::getImgFromIndCam(cv::Mat &mat)
 {
     long nCameraCount = 0;
-    long nRel                       = -1;
-    long nWidth                 = 0;
-    long nHeight                = 0;
-    long nFrames               = 0;
+    long nRel                      = -1;
+    long nWidth                    =  0;
+    long nHeight                   =  0;
+    long nFrames                   =  0;
 
-    unsigned char *pBuffer                   = NULL;
-    ICamera                *pCamera                = NULL;
+    unsigned char  *pBuffer        = NULL;
+    ICamera        *pCamera        = NULL;
     IDeviceManager *pDeviceManager = new IDeviceManager();
     if(NULL == pDeviceManager)
     {
@@ -108,7 +108,7 @@ int CGetimg::getImgFromIndCam(cv::Mat &mat)
 
 }
 
-
+/*get KS2A17 's img*/
 int CGetimg::getImgFromBaseCam()
 {
     cv::VideoCapture cap;
