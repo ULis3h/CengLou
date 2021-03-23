@@ -20,6 +20,15 @@
  
 ## 🛠 功能与设置
 ## 🚀 客户端
+*客户端目前只支持ubuntu 14.04 及以上的linux操作系统*
+功能: 1.光毓电机调试
+      2.雄迈摄像头串口调试
+      3.yaw-pitch 三环读取
+      4.后台数据库识别信息查看
+      5.上位机状态展示
+
+客户端下载：[源码地址](https://github.com/Hiiam9/CengLou/tree/main/client)
+构建说明参考client目录下的README文件
 ## ⚡️ 调试
 
 
