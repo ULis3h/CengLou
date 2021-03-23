@@ -14,7 +14,8 @@
 ⚙️机械结构：
 目前拼凑出的整体图如下，后续会舍弃掉一些（如测试使用的intel神经元计算棒）
 <p><img src="https://github.com/Hiiam9/CengLou/blob/main/mechanics/pic/wholeCar.jpeg" width="360" height="250"/></p>  
-[模块查看](https://github.com/Hiiam9/CengLou/blob/main/mechanics)  
+[模块查看](https://github.com/Hiiam9/CengLou/blob/main/mechanics)   
+
 💡整体软硬件平台    
 
 ⚡️硬件：  
