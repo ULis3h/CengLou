@@ -1,0 +1,22 @@
+the install version is 1.0.0.8,the sdk be based on g++ 4.5.3.
+
+Install step:
+
+1.sudo chmod 777 fairsionCamera_arm_i686.bin
+
+2.sudo ./fairsionCamera_arm_i686.bin
+
+3.cd ./fairsionCamera/bin/
+
+4.sudo fairCameraDemo.sh
+
+5.If you can't find the gige camera, you must determine if the IP address of the NIC is correct,and try the following:
+{
+	1.ifconfig
+	2.sudo ifconfig eth*** 169.254.1.78
+}
+
+6.If you can't find the usb camera, you must install libudev-dev, try the following:
+{
+	1.sudo apt-get install libudev-dev
+}
