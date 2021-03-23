@@ -11,7 +11,9 @@
 ⬇️[下载地址](https://github.com/Hiiam9)
 
 ## 🚀 快速使用
-整体软硬件平台：   
+⚙️机械结构：
+
+💡整体软硬件平台：   
 
 硬件：上位机---Nvidia Tegra K1 || Nvidia Tegra X1 || Nvidia Tegra X2  
       <p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tx2.png"><img src="https://github.com/Hiiam9/CengLou/blob/main/other/jetsonpic/tk1.jpg" width = "480" height = "320" ></p>
