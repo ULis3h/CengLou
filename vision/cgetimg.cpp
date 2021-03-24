@@ -1,4 +1,5 @@
 #include "cgetimg.h"
+#include "cimgproc.h"
 
 CGetimg::CGetimg()
 {
@@ -73,6 +74,11 @@ int CGetimg::getImgFromIndCam(cv::Mat &mat)
 
                             if(0 == nRel)
                             {
+                                CascadeClassifier cascade, nestedCascade;
+                                bool stop = false;
+                                cascade.load("/home/ubuntu/opencv-3.4.1/data/haarcascades/haarcascade_frontalface_alt.xml");
+                                nestedCascade.load("/home/ubuntu/opencv-3.4.1/data/haarcascades/haarcascade_eye.xml");
+                                CImgproc proc;
                                     // Get Image
                                     while(true)
                                     {
@@ -86,6 +92,7 @@ int CGetimg::getImgFromIndCam(cv::Mat &mat)
                                                     printf("Get Image success, Image Index is %ld\r\n", nFrames);
                                                     cv::Mat img(nHeight,nWidth,CV_8UC1,pBuffer);
                                                     mat = img;
+                                                    proc.detectFace(img, cascade, nestedCascade,2,0);
                                                     cv::imshow("raw",img);
                                                     cv::imwrite("/home/ubuntu/test.png",img);
                                                     cv::waitKey(1);

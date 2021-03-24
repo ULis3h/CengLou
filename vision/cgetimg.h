@@ -11,6 +11,8 @@ using namespace std;
 using namespace FAIRSIONCAMERA_API;
 using namespace cv;
 
+
+
 class CGetimg
 {
 public:

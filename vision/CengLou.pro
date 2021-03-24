@@ -20,7 +20,8 @@ LIBS += /usr/local/lib/arm-linux-gnueabihf/libopencv_highgui.so \
         /usr/local/lib/arm-linux-gnueabihf/libopencv_imgproc.so \
         /usr/local/lib/arm-linux-gnueabihf/libopencv_imgcodecs.so\
         /usr/lib/libfairsionCamera.so\
-        /usr/local/lib/arm-linux-gnueabihf/libopencv_videoio.so
+        /usr/local/lib/arm-linux-gnueabihf/libopencv_videoio.so \
+        /usr/local/lib/arm-linux-gnueabihf/libopencv_objdetect.so
 
 HEADERS += \
     cgetimg.h \
