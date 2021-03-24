@@ -1,3 +1,4 @@
+#include <thread>
 #include "cgetimg.h"
 #include "csetting.h"
 
@@ -26,6 +27,7 @@ int main(int argc,char *argv[])
     csetting m_setting(SETTING_FILE);           /*config all*/
     CGetimg gImg;
     cv::Mat a;
+
     /*
     three threads run
     */
