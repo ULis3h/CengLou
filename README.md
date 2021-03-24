@@ -65,7 +65,13 @@ v1.0 Form:
 客户端下载：[源码地址](https://github.com/Hiiam9/CengLou/tree/main/client)  
 构建说明参考client目录下的[README](https://github.com/Hiiam9/CengLou/blob/main/client/README.md)文件  
 ## ⚡️ 调试
-## 📱通信协议
+## 📱通信协议  
+|Byte0|Byte1|Byte2|Byte3|Byte4|Byte5|Byte6|Byte7|Byte8|Byte9|
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+|0xA5|cmdID|CRC8_Check|pitch_data|pitch_data|pitch_data|pitch_data|yaw_data|yaw_data|yaw_data|
+|Byte10|Byte11|Byte12|Byte13|Byte14|Byte15|Byte16|Byte17|Byte18|Byte19|
+|yaw_data|dist_data|dist_data|dist_data|dist_data|flag1|flag2|flag3|flag4|flag5|  
+
 ## 📖数据库
 
 
