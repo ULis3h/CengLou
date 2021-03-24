@@ -8,4 +8,4 @@ test客户端主要功能为接收 上位机传输的图像和调试电机及串
 
 ## 雄迈摄像头 
 由于客户端可以调试雄迈模组的变焦镜头，所以将介绍放在这里
-<p><img src=""/></p>
+<p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/clientpic/xmCam.gif/></p>
