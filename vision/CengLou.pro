@@ -8,7 +8,9 @@ SOURCES += main.cpp \
     cimgproc.cpp \
     ccallocal.cpp \
     cserial.cpp \
-    cfacerec.cpp
+    cfacerec.cpp \
+    csetting.cpp \
+    faceinfotomysql.cpp
 
 INCLUDEPATH += /usr/local/include \
                /usr/local/include/opencv \
@@ -25,4 +27,6 @@ HEADERS += \
     cimgproc.h \
     ccallocal.h \
     cserial.h \
-    cfacerec.h
+    cfacerec.h \
+    csetting.h \
+    faceinfotomysql.h
