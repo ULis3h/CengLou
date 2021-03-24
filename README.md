@@ -41,6 +41,7 @@
 ## 🛠 功能与设置
 功能：
 - 人脸识别与云台跟踪  
+人脸检测<p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/detect/faceDetect.png" width = "720" height = "480"/></p>
 - 识别信息存入数据库  
 
 设置：  
