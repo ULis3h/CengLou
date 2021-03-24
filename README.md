@@ -69,8 +69,8 @@ v1.0 Form:
 |Byte0|Byte1|Byte2|Byte3|Byte4|Byte5|
 |:--|:--|:--|:--|:--|:--|
 |0xA0|cmdID|CRC8_Check|pitch_data|pitch_data|pitch_data|
-|Byte6|Byte7|Byte8|Byte9||Byte10|Byte11|
-|pitch_data|yaw_data|yaw_data|yaw_data||yaw_data|flag|
+|Byte6|Byte7|Byte8|Byte9|Byte10|Byte11|
+|pitch_data|yaw_data|yaw_data|yaw_data|yaw_data|flag|
 
 ## 📖数据库
 
