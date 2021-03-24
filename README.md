@@ -73,110 +73,110 @@ v1.0 Form:
 |pitch_data|yaw_data|yaw_data|yaw_data|yaw_data|flag|
 
 ## 📖数据库
-## 🌲文件树
-├── client
-│   ├── build-CengLou-Desktop_Qt_5_13_0_GCC_64bit-Debug
-│   │   ├── about.o
-│   │   ├── CengLou
-│   │   ├── E:\cl\test.jpg
-│   │   ├── main.o
-│   │   ├── mainwindow.o
-│   │   ├── Makefile
-│   │   ├── moc_about.cpp
-│   │   ├── moc_about.o
-│   │   ├── moc_mainwindow.cpp
-│   │   ├── moc_mainwindow.o
-│   │   ├── moc_predefs.h
-│   │   ├── moc_yawinf.cpp
-│   │   ├── moc_yawinf.o
-│   │   ├── ui_about.h
-│   │   ├── ui_mainwindow.h
-│   │   ├── ui_yawinf.h
-│   │   └── yawinf.o
-│   ├── README.md
-│   └── src
-│       ├── about.cpp
-│       ├── about.h
-│       ├── about.ui
-│       ├── CengLou.pro
-│       ├── CengLou.pro.user
-│       ├── help.chm
-│       ├── help.hhp
-│       ├── ic.ico
-│       ├── lulu.png
-│       ├── main.cpp
-│       ├── mainwindow.cpp
-│       ├── mainwindow.h
-│       ├── mainwindow.ui
-│       ├── spider.py
-│       ├── switchcontrol.cpp
-│       ├── switchcontrol.h
-│       ├── switchcontrol.ui
-│       ├── Table of Contents.hhc
-│       ├── videoproc.cpp
-│       ├── videoproc.h
-│       ├── yawinf.cpp
-│       ├── yawinf.h
-│       └── yawinf.ui
-├── clientpic.png
-├── elecCtl
-│   ├── README.md
-│   └── src
-│       └── README.md
-├── mechanics
-│   ├── pic
-│   │   └── wholeCar.jpeg
-│   ├── README.md
-│   ├── 云台中控.SLDPRT
-│   ├── 云台支架0816.SLDPRT
-│   ├── 云台支架.SLDPRT
-│   └── 装配体2.SLDASM
-├── other
-│   ├── clientpic
-│   │   ├── clientpic.png
-│   │   ├── client.png
-│   │   └── xmCam.gif
-│   ├── detect
-│   │   └── faceDetect.png
-│   ├── jetsonpic
-│   │   ├── re
-│   │   ├── tk1.jpg
-│   │   └── tx2.png
+## 🌲文件树  
+├── client  
+│   ├── build-CengLou-Desktop_Qt_5_13_0_GCC_64bit-Debug  
+│   │   ├── about.o  
+│   │   ├── CengLou  
+│   │   ├── E:\cl\test.jpg  
+│   │   ├── main.o  
+│   │   ├── mainwindow.o  
+│   │   ├── Makefile  
+│   │   ├── moc_about.cpp  
+│   │   ├── moc_about.o  
+│   │   ├── moc_mainwindow.cpp  
+│   │   ├── moc_mainwindow.o  
+│   │   ├── moc_predefs.h  
+│   │   ├── moc_yawinf.cpp  
+│   │   ├── moc_yawinf.o  
+│   │   ├── ui_about.h  
+│   │   ├── ui_mainwindow.h  
+│   │   ├── ui_yawinf.h  
+│   │   └── yawinf.o  
+│   ├── README.md  
+│   └── src  
+│       ├── about.cpp  
+│       ├── about.h  
+│       ├── about.ui  
+│       ├── CengLou.pro  
+│       ├── CengLou.pro.user  
+│       ├── help.chm  
+│       ├── help.hhp  
+│       ├── ic.ico  
+│       ├── lulu.png  
+│       ├── main.cpp  
+│       ├── mainwindow.cpp  
+│       ├── mainwindow.h  
+│       ├── mainwindow.ui  
+│       ├── spider.py  
+│       ├── switchcontrol.cpp  
+│       ├── switchcontrol.h  
+│       ├── switchcontrol.ui  
+│       ├── Table of Contents.hhc  
+│       ├── videoproc.cpp  
+│       ├── videoproc.h  
+│       ├── yawinf.cpp  
+│       ├── yawinf.h  
+│       └── yawinf.ui  
+├── clientpic.png  
+├── elecCtl  
+│   ├── README.md  
+│   └── src  
+│       └── README.md  
+├── mechanics  
+│   ├── pic  
+│   │   └── wholeCar.jpeg  
+│   ├── README.md  
+│   ├── 云台中控.SLDPRT  
+│   ├── 云台支架0816.SLDPRT  
+│   ├── 云台支架.SLDPRT  
+│   └── 装配体2.SLDASM  
+├── other  
+│   ├── clientpic  
+│   │   ├── clientpic.png  
+│   │   ├── client.png  
+│   │   └── xmCam.gif  
+│   ├── detect  
+│   │   └── faceDetect.png  
+│   ├── jetsonpic  
+│   │   ├── re  
+│   │   ├── tk1.jpg  
+│   │   └── tx2.png  
 │   └── README.md
-├── README.md
-└── vision
-    ├── ccallocal.cpp
-    ├── ccallocal.h
-    ├── ccallocal.o
-    ├── CengLou.pro
-    ├── cfacerec.cpp
-    ├── cfacerec.h
-    ├── cfacerec.o
-    ├── cgetimg.cpp
-    ├── cgetimg.h
-    ├── cgetimg.o
-    ├── cimgproc.cpp
-    ├── cimgproc.h
-    ├── cimgproc.o
-    ├── cserial.cpp
-    ├── cserial.h
-    ├── cserial.o
-    ├── csetting.cpp
-    ├── csetting.h
-    ├── faceinfotomysql.cpp
-    ├── faceinfotomysql.h
-    ├── fairsionCam
-    │   ├── fairsionCamera_arm_i686.bin
-    │   └── ReadMe
-    ├── jetpack
-    │   └── README.md
-    ├── main.cpp
-    ├── main.o
-    ├── Makefile
-    ├── module
-    │   └── haarcascade_frontalface_alt.xml
-    └── README.md
-
+├── README.md  
+└── vision  
+    ├── ccallocal.cpp  
+    ├── ccallocal.h  
+    ├── ccallocal.o  
+    ├── CengLou.pro  
+    ├── cfacerec.cpp  
+    ├── cfacerec.h  
+    ├── cfacerec.o  
+    ├── cgetimg.cpp  
+    ├── cgetimg.h  
+    ├── cgetimg.o  
+    ├── cimgproc.cpp  
+    ├── cimgproc.h  
+    ├── cimgproc.o  
+    ├── cserial.cpp  
+    ├── cserial.h  
+    ├── cserial.o  
+    ├── csetting.cpp  
+    ├── csetting.h  
+    ├── faceinfotomysql.cpp  
+    ├── faceinfotomysql.h  
+    ├── fairsionCam  
+    │   ├── fairsionCamera_arm_i686.bin  
+    │   └── ReadMe  
+    ├── jetpack  
+    │   └── README.md  
+    ├── main.cpp  
+    ├── main.o  
+    ├── Makefile  
+    ├── module  
+    │   └── haarcascade_frontalface_alt.xml  
+    └── README.md  
+  
 
 ## 😘 参与此项目 
 由于目前此项目完全是一个人在搞，个人水平的限制造成太多不完善，希望有相同爱好的朋友参与进来，一起搞机！！！  
