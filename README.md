@@ -52,7 +52,7 @@
 ## 🚀 客户端
 *客户端目前只测试了ubuntu 14.04 及以上的linux操作系统，但理论上只要运行客户端的主机安装了OpenCV3和Py3 即可跨平台*  
 v1.0 Form:
-<p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/clientpic/client.png"/></p>  
+<p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/clientpic/clientpic.png" width = "720" height = "480"/></p>  
 
 - 功能 :  
 1.光毓电机调试  

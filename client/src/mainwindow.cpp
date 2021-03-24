@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-
+using namespace cv;
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -610,7 +610,7 @@ void MainWindow::on_actionyaw_triggered()
 void MainWindow::on_pushButton_2_clicked() // 实时接收模式按钮点击事件
 {
     this->recvModel = true;
-    cap = VideoCapture("rtsp://192.168.18.156 :554/user=admin&password=&channel=1&stream=1.sdp?real_stream");
+    cap = VideoCapture("rtsp://192.168.1.9:554/user=admin&password=&channel=1&stream=1.sdp?real_stream");
     if(!cap.isOpened())
     {
         qDebug()<<"open camera faild";

@@ -4,7 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 QT += multimedia
 QT += multimediawidgets
-QT += axcontainer
+#QT += axcontainer
 QT += serialport
 QT += core gui network
 
@@ -24,11 +24,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
-INCLUDEPATH+=d:/opencv/build/include/opencv \
-                    d:/opencv/build/include/opencv2 \
-                   d:/opencv/build/include
-LIBS+=D:\opencv\build\x64\vc14\lib\opencv_world345.lib
-LIBS+=D:\opencv\build\x64\vc14\lib\opencv_world345d.lib
+INCLUDEPATH+=/usr/local/include/opencv               \
+             /usr/local/include/opencv2
+
+LIBS+= /usr/local/lib/libopencv_calib3d.so \
+        /usr/local/lib/libopencv_video.so  \
+        /usr/local/lib/libopencv_core.so   \
+        /usr/local/lib/libopencv_highgui.so \
+        /usr/local/lib/libopencv_imgproc.so  \
+        /usr/local/lib/libopencv_imgcodecs.so \
+        /usr/local/lib/libopencv_shape.so       \
+        /usr/local/lib/libopencv_videoio.so
+
 
 
 

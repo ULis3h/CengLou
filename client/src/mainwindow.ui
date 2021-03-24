@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>层楼(win连接端 version1.0)     ——Powered by 王宇鑫</string>
+   <string>层楼(win连接端 version1.0)     ——Powered by ULis</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_player">
@@ -116,8 +116,8 @@
      <rect>
       <x>550</x>
       <y>410</y>
-      <width>105</width>
-      <height>20</height>
+      <width>123</width>
+      <height>31</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -142,7 +142,7 @@
      <rect>
       <x>390</x>
       <y>410</y>
-      <width>81</width>
+      <width>101</width>
       <height>21</height>
      </rect>
     </property>
@@ -168,8 +168,8 @@
      <rect>
       <x>900</x>
       <y>380</y>
-      <width>74</width>
-      <height>42</height>
+      <width>88</width>
+      <height>56</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -190,8 +190,8 @@
      <rect>
       <x>900</x>
       <y>430</y>
-      <width>74</width>
-      <height>42</height>
+      <width>88</width>
+      <height>56</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -225,8 +225,8 @@
      <rect>
       <x>800</x>
       <y>380</y>
-      <width>74</width>
-      <height>42</height>
+      <width>88</width>
+      <height>56</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -247,8 +247,8 @@
      <rect>
       <x>800</x>
       <y>430</y>
-      <width>74</width>
-      <height>48</height>
+      <width>88</width>
+      <height>56</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_8">
@@ -268,9 +268,9 @@
     <property name="geometry">
      <rect>
       <x>800</x>
-      <y>480</y>
-      <width>74</width>
-      <height>42</height>
+      <y>500</y>
+      <width>88</width>
+      <height>56</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -313,9 +313,9 @@
     <property name="geometry">
      <rect>
       <x>790</x>
-      <y>220</y>
+      <y>212</y>
       <width>54</width>
-      <height>12</height>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
@@ -328,7 +328,7 @@
       <x>1000</x>
       <y>450</y>
       <width>80</width>
-      <height>20</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -351,10 +351,10 @@
    <widget class="QRadioButton" name="radioButton_normal">
     <property name="geometry">
      <rect>
-      <x>880</x>
+      <x>900</x>
       <y>20</y>
-      <width>61</width>
-      <height>18</height>
+      <width>81</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -365,9 +365,9 @@
     <property name="geometry">
      <rect>
       <x>800</x>
-      <y>20</y>
-      <width>75</width>
-      <height>20</height>
+      <y>14</y>
+      <width>88</width>
+      <height>31</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -418,7 +418,7 @@
      <rect>
       <x>270</x>
       <y>410</y>
-      <width>81</width>
+      <width>91</width>
       <height>20</height>
      </rect>
     </property>
@@ -522,7 +522,7 @@
      <rect>
       <x>160</x>
       <y>411</y>
-      <width>51</width>
+      <width>61</width>
       <height>20</height>
      </rect>
     </property>
@@ -572,7 +572,7 @@
    <widget class="QProgressBar" name="progressBar_Pi">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>70</x>
       <y>570</y>
       <width>131</width>
       <height>20</height>
@@ -585,7 +585,7 @@
    <widget class="QProgressBar" name="progressBar_stm32">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>70</x>
       <y>530</y>
       <width>131</width>
       <height>20</height>
@@ -600,7 +600,7 @@
      <rect>
       <x>20</x>
       <y>530</y>
-      <width>31</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -611,7 +611,7 @@
    <widget class="QPushButton" name="btn_Connect_Stm32">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>210</x>
       <y>530</y>
       <width>51</width>
       <height>20</height>
@@ -637,7 +637,7 @@
    <widget class="QPushButton" name="btn_Connect_Pi">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>210</x>
       <y>570</y>
       <width>51</width>
       <height>20</height>
@@ -665,7 +665,7 @@
      <rect>
       <x>20</x>
       <y>470</y>
-      <width>51</width>
+      <width>61</width>
       <height>20</height>
      </rect>
     </property>
@@ -715,9 +715,9 @@
    <widget class="QLabel" name="label_vide_info">
     <property name="geometry">
      <rect>
-      <x>660</x>
+      <x>620</x>
       <y>40</y>
-      <width>111</width>
+      <width>151</width>
       <height>20</height>
      </rect>
     </property>
@@ -795,7 +795,7 @@
      <x>0</x>
      <y>0</y>
      <width>1114</width>
-     <height>22</height>
+     <height>28</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
