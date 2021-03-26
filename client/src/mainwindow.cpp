@@ -254,6 +254,9 @@ void MainWindow::on_openPort_btn_clicked()//打开串口点击事件
 
 void MainWindow::on_btn_Connect_Stm32_clicked()//连接stm32按钮点击事件
 {
+    string ip = "192.168.1.4";
+    int port = 8888;
+
     if(ui->portBox->currentText()!=""){//判断端口是否打开，暂时先这么写
 
         int count = 0;
