@@ -75,7 +75,8 @@ v1.0 Form:
 |Byte6|Byte7|Byte8|Byte9|Byte10|Byte11|
 |pitch_data|yaw_data|yaw_data|yaw_data|yaw_data|flag|
 
-## 📖数据库
+## 📖数据库  
+本项目数据库拟采用MYSQL进行存储，只要存储目标的特征信息
 ## 🌲文件树  
 ├── client  
 │   ├── build-CengLou-Desktop_Qt_5_13_0_GCC_64bit-Debug  
