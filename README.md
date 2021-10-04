@@ -67,7 +67,7 @@ v1.0 Form:
 构建说明参考client目录下的[README](https://github.com/Hiiam9/CengLou/blob/main/client/README.md)文件  
 ## ⚡️ 调试
 ## 📱通信协议  
-1.上位机至下位机通信协议
+1.上位机至下位机通信协议   
     主要用于云台角度交互
 |Byte0|Byte1|Byte2|Byte3|Byte4|Byte5|
 |:--|:--|:--|:--|:--|:--|
