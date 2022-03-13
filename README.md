@@ -189,5 +189,3 @@ v1.0 Form:
 ## 📝 其他项目
 
 🔐综合漏洞扫描：[项目地址](https://github.com/Hiiam9/lampShadow)  
-🍊流量分析检测：[项目地址](https://github.com/Hiiam9/nightwish)   
-💻操作系统项目：[项目地址](https://github.com/ULis3h/LampShadowOS)
