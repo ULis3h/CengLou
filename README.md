@@ -1,6 +1,6 @@
 <h1 align<h1 align="center">Welcome to CengLou 👋  <img src="https://img.shields.io/badge/CengLou-ULis-blue"/></h1>   
 
-> 一个想到哪做到哪的机器人项目 
+> 一个想到哪做到哪的机器人项目 a
 <p>
     <img src="https://img.shields.io/badge/CengLou-v1.0-blue"/>
 </p>  
@@ -15,7 +15,6 @@
 ⚙️机械结构：
 目前拼凑出的整体图如下，后续会舍弃掉一些（如测试使用的intel神经元计算棒）
 <p><img src="https://github.com/Hiiam9/CengLou/blob/main/mechanics/pic/wholeCar.jpeg" width="360" height="250"/>各个模块细节查看：https://github.com/Hiiam9/CengLou/blob/main/mechanics</p>   
-
 
 💡整体软硬件平台    
 
@@ -32,13 +31,13 @@
 将最新工程clone到本地，并进入CengLou目录
 
     1. #sudo chmod +x install.sh  
-   
+       
     2. #./install  
-
+    
     3. #./cenglou -f /*启动人脸识别*/ 
-     
+
  说明：安装脚本install.sh 使用了各个工程的makefile文件，如需单独使用某个工程，请单独编译。
- 
+
 ## 🛠 功能与设置
 功能：
 - 人脸识别与云台跟踪  
@@ -55,7 +54,6 @@
 *客户端目前只测试了ubuntu 14.04 及以上的linux操作系统，但理论上只要运行客户端的主机安装了OpenCV3和Py3 即可跨平台*  
 v1.0 Form:
 <p><img src="https://github.com/Hiiam9/CengLou/blob/main/other/clientpic/clientpic.png" width = "720" height = "480"/></p>  
-
 - 功能 :  
 1.光毓电机调试  
 2.雄迈摄像头串口调试  
@@ -180,7 +178,7 @@ v1.0 Form:
     ├── module  
     │   └── haarcascade_frontalface_alt.xml  
     └── README.md  
-  
+
 
 ## 😘 参与此项目 
 由于目前此项目完全是一个人在搞，个人水平的限制造成太多不完善，希望有相同爱好的朋友参与进来，一起搞机！！！  
